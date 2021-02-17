@@ -1,0 +1,81 @@
+.wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 410px;
+    margin: 10%;
+    background-image: url(pic.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+.door1, .door2 {
+    float: left;
+}
+
+/* .text {
+    display: block;
+    margin-top: 2.1%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 0%;
+    float: left;
+    left: 100px;
+} */
+.gate1 {
+    width: 200px;
+    height: 50px;
+    transform-origin: 0% center;
+    background-color: rgb(120, 51, 98);
+    border: 2px solid rgb(43, 8, 26);
+    border-bottom: 0mm;
+}
+
+.gate2 {
+    width: 200px;
+    height: 50px;
+    transform-origin: 0% center;
+    background-color: rgb(120, 51, 98);
+    border: 2px solid rgb(43, 8, 26);
+    border-top: 0mm;
+}
+
+.gate3 {
+    width: 200px;
+    height: 50px;
+    transform-origin: 100% center;
+    background-color: rgb(120, 51, 98);
+    border: 2px solid rgb(43, 8, 26);
+    border-bottom: 0mm;
+}
+
+.gate4 {
+    width: 200px;
+    height: 50px;
+    transform-origin: 100% center;
+    background-color: rgb(120, 51, 98);
+    border: 2px solid rgb(43, 8, 26);
+    border-top: 0mm;
+}
+
+.wrapper:hover .gate1 {
+    transform: skewY(5deg) scaleX(0.65);
+    transition: 2s;
+}
+.wrapper:hover .gate2{
+    transform: skewY(-5deg) scaleX(0.65);
+    transition: 2s;
+}
+
+.wrapper:hover .gate3 {
+    transform: skewY(-5deg) scaleX(0.65);
+    transition: 2s;
+}
+.wrapper:hover .gate4{
+    transform: skewY(5deg) scaleX(0.65);
+    transition: 2s;
+}
+
+
+

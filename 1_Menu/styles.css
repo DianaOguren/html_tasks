@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+.text {
+    margin-left: 180px;
+    text-transform: uppercase;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0;
+}
+
+li {
+    display: block;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 60px;
+    transition: width linear 1s, background-color 1s;
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 20px 60px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100px; 
+    height: 100%;
+    overflow: hidden;
+    transition: width linear 1s;
+    }
+
+.wrapper:hover {
+    width: 240px;
+    overflow: visible;
+}
+
+.wrapper:hover li {
+    width: 200px;
+} 
+
+li:not(:first-of-type):hover {
+    background-color: rgb(87, 87, 87) ;
+}
+
+.menu_line {
+    background-repeat: no-repeat;
+    background-size: 60px;
+    padding: 0px 0px 0px 40px;
+    margin: 0px;
+    padding-bottom: 30px;
+    background-position-x: 25px;
+}
+
+#id0 {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 10px;
+
+}
+
+#id1 {
+    background-image: url(Pict/edit.png);
+    
+}
+
+#id2 {
+    background-image: url(Pict/favorites.png);
+}
+
+#id3 {
+    background-image: url(Pict/history.png);
+}
+
+#id4 {
+    background-image: url(Pict/security.png);
+}
+
+#id5 {
+    background-image: url(Pict/settings.png);
+}
